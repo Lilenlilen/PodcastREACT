@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header>
-      <h1>TOP 50</h1>
+      <h1>TOP 50 SONGS</h1>
     </header>
   );
 };

@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import TopAlbums from "./pages/TopAlbums";
+import TopSongs from "./pages/TopSongs";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<TopAlbums />} />
+        <Route path="/" element={<TopSongs />} />
       </Routes>
     </BrowserRouter>
   );
