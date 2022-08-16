@@ -1,6 +1,6 @@
 const LoadingIcon = () => {
   return (
-    <div class="loader loader--style1" title="0">
+    <div className="loader loader--style1" title="0">
       <svg
         version="1.1"
         id="loader-1"
@@ -10,7 +10,7 @@ const LoadingIcon = () => {
         width="40px"
         height="40px"
         viewBox="0 0 40 40"
-        enable-background="new 0 0 40 40"
+        enableBackground="new 0 0 40 40"
       >
         <path
           opacity="0.2"
